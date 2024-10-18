@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIET Mentorship Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SLIET Mentorship Platform</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mentors">Mentors</a></li>
+                <li><a href="#booking">Book a Session</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to the SLIET Mentorship Platform</h2>
+            <p>Connect with faculty mentors for academic support and career guidance.</p>
+        </section>
+
+        <section id="mentors">
+            <h2>Meet Our Faculty Mentors</h2>
+            <div id="mentor-list">
+                <div class="mentor-card">
+                    <img src="Edward.jpeg" alt="Mentor Name" class="mentor-image">
+                    <h3>Dr. Edward</h3>
+                    <p><strong>Expertise:</strong> Software Engineering, Data Science</p>
+                    <p><strong>Availability:</strong> Mon, Wed, Fri - 2 PM to 4 PM</p>
+                    <button class="more-button">More</button>
+                </div>
+        
+                <div class="mentor-card">
+                    <img src="John Smith.jpeg" alt="Mentor Name" class="mentor-image">
+                    <h3>Prof. John Smith</h3>
+                    <p><strong>Expertise:</strong> Cybersecurity, Networking</p>
+                    <p><strong>Availability:</strong> Tue, Thu - 10 AM to 12 PM</p>
+                    <button class="more-button">More</button>
+                </div>
+
+                <div class="mentor-card">
+                    <img src="Williams.jpeg" alt="Mentor Name" class="mentor-image">
+                    <h3>Prof. Williams</h3>
+                    <p><strong>Expertise:</strong> Web Development, Gen AI </p>
+                    <p><strong>Availability:</strong> Sat, Sun - 11 AM to 1 PM</p>
+                    <button class="more-button">More</button>
+                </div>
+
+                <div class="mentor-card">
+                    <img src="Madona Christy.jpeg" alt="Mentor Name" class="mentor-image">
+                    <h3>Prof. Madona christy</h3>
+                    <p><strong>Expertise:</strong> FullStack App Development</p>
+                    <p><strong>Availability:</strong> Mon, Fri - 5 PM to 8 PM</p>
+                    <button class="more-button">More</button>
+                </div>
+        
+                <!-- Add more mentor cards as needed -->
+            </div>
+        </section>
+        
+
+        <section id="booking">
+            <h2>Book a Mentorship Session</h2>
+            <form id="booking-form">
+                <label for="mentor">Select Mentor:</label>
+                <select id="mentor" required>
+                    <option value="">--Choose a mentor--</option>
+                    <!-- Options will be dynamically populated -->
+                </select>
+
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" required>
+
+                <label for="time">Select Time Slot:</label>
+                <select id="time" required>
+                    <option value="">--Select Time--</option>
+                </select>
+
+                <button type="submit">Book Session</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For any inquiries, please email us at mentorship@sliet.ac.in.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SLIET. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
