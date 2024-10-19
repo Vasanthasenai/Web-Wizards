@@ -71,7 +71,7 @@
                 <label for="mentor">Select Mentor:</label>
                 <select id="mentor" required>
                     <option value="">--Choose a mentor--</option>
-                    <!-- Options will be dynamically populated -->
+                    
                 </select>
 
                 <label for="date">Select Date:</label>
@@ -79,7 +79,28 @@
 
                 <label for="time">Select Time Slot:</label>
                 <select id="time" required>
-                    <option value="">--Select Time--</option>
+                    <option value="">--Select Time--</option> 
+                         
+                    <optgroup label="Dr. Edward">
+                        <option value="mon-2-4">Mon 2 PM - 4 PM</option>
+                        <option value="wed-2-4">Wed 2 PM - 4 PM</option>
+                        <option value="fri-2-4">Fri 2 PM - 4 PM</option>
+                    </optgroup>
+
+                    <optgroup label="Prof. John Smith">
+                        <option value="tue-10-12">Tue 10 AM - 12 PM</option>
+                        <option value="thu-10-12">Thu 10 AM - 12 PM</option>
+                    </optgroup>
+        
+                    <optgroup label="Prof. Williams">
+                        <option value="sat-11-1">Sat 11 AM - 1 PM</option>
+                        <option value="sun-11-1">Sun 11 AM - 1 PM</option>
+                    </optgroup>
+        
+                    <optgroup label="Prof. Madona Christy">
+                        <option value="mon-5-8">Mon 5 PM - 8 PM</option>
+                        <option value="fri-5-8">Fri 5 PM - 8 PM</option>
+                    </optgroup>
                 </select>
 
                 <button type="submit">Book Session</button>

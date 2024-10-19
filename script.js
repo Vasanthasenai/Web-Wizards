@@ -62,7 +62,7 @@ mentorSelect.addEventListener("change", () => {
     const timeSelect = document.getElementById("time");
     timeSelect.innerHTML = '';
     
-    const timeSlots = ["2 PM", "3 PM", "4 PM"]; 
+    const timeSlots = ["2 PM - 4 PM", "10 AM - 12 PM", "11 AM - 1 PM", "5 PM - 8 PM"]; 
 
     timeSlots.forEach(time => {
         const option = document.createElement("option");
